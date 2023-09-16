@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "971745921911",
+    "project_id": "multi-upload-pro",
+    "storage_bucket": "multi-upload-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971745921911:android:1aa92ce61fc09cc1c92f72",
+        "android_client_info": {
+          "package_name": "com.bykamrankhan.multi_upload_pro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAns2I6NBVn4kBYtsUkGp9YbUWEYMx91aQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

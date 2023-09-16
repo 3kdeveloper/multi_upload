@@ -1,0 +1,60 @@
+name: multi_upload_pro
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  logger: ^2.0.2
+  flutter_native_splash: ^2.3.2
+  cached_network_image: ^3.2.3
+  flutter_bloc: ^8.1.3
+  get_it: ^7.6.4
+  freezed_annotation: ^2.4.1
+  google_fonts: ^5.1.0
+  flutter_svg: ^2.0.7
+  flutter_speed_dial: ^7.0.0
+  json_annotation: ^4.8.1
+  permission_handler: ^11.0.0
+  file_picker: ^5.5.0
+  fluttertoast: ^8.2.2
+  device_info_plus: ^9.0.3
+  auto_height_grid_view: ^1.0.0
+
+  # Firebase Packages
+  firebase_core: ^2.15.1
+  firebase_crashlytics: ^3.3.5
+  firebase_auth: ^4.9.0
+  cloud_firestore: ^4.9.1
+  firebase_storage: ^11.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+  build_runner: ^2.4.6
+  flutter_launcher_icons: ^0.13.1
+  freezed: ^2.4.2
+  json_serializable: ^6.7.1
+
+# This code will automatically add assets to the specified output_dir
+flutter_assets_generator:
+  output_dir: core\constants
+  named_with_parent: false
+  output_filename: images_resource
+  class_name: ImagesResource
+  path_ignore: ["assets/appIcons"]
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
+#    - assets/images/
+#    - assets/images/1.5x/
+#    - assets/images/2.0x/
+#    - assets/images/3.0x/
+#    - assets/images/4.0x/
